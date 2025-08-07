@@ -1,4 +1,4 @@
-import TopNavBar from "@/components/TopNavBar";
+// import TopNavBar from "@/components/TopNavBar";
 import Agency from "@/app/landing/agency/page"
  import {
 //   AdminDemos,
@@ -12,7 +12,8 @@ import Agency from "@/app/landing/agency/page"
 export default function Home() {
   return (
     <>
-      <TopNavBar menuItems={["home", "demos", "features"]} position="fixed" />
+      {/* <TopNavBar menuItems={["home", "demos", "features"]} position="fixed" /> */}
+      
 
      {/* <Hero />*/} 
 

@@ -5,7 +5,7 @@ import img2 from "@/assets/images/landing/agency/Hpc Design.png"
 import img3 from "@/assets/images/landing/agency/Ai.png"
 import img4 from "@/assets/images/landing/agency/soft.png"
 import img5 from "@/assets/images/landing/agency/Domain.png";
-import img6 from "@/assets/images/landing/agency/Training.png"
+import img6 from "@/assets/images/landing/agency/trainign.png"
 import image1 from "@/assets/images/landing/agency/plantx.png"
 
 

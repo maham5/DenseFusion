@@ -1,8 +1,10 @@
 import {
   LuAppWindow,
   LuCodesandbox,
+  LuComponent,
   LuDatabase,
   LuHeadphones,
+  LuLayers,
   LuSettings,
   LuTruck,
 } from "react-icons/lu";
@@ -20,19 +22,19 @@ import company10 from "@/assets/images/landing/company/img-10.jpg";
 
 const features = [
   {
-    title: "Immediate Deployment",
-    description: "Et vero eos et accusamus et iusto odio dignissimos",
+    title: "High Performance Computing",
+    description: "Gain The Computational Horsepower To Tackle The Most Demanding Tasks",
     icon: LuSettings,
   },
   {
-    title: "DOS Protection",
-    description: "But I need to clarify how this erroneous concept is",
-    icon: LuAppWindow,
+    title: "AI Consultation",
+    description: "Transform Ideas Into Intelligent Solutions With Our AI Consultation",
+    icon: LuLayers,
   },
   {
-    title: "Premium Support",
-    description: "we disapprove of those who uphold righteous indignation.",
-    icon: LuHeadphones,
+    title: "Application Development",
+    description: "Developing User-Friendly, Responsive Interfaces with Stunning Visuals",
+    icon: LuComponent,
   },
 ];
 

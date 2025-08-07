@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section
          id="home"
-         className="relative overflow-hidden bg-black  py-24 lg:py-40"
+         className="relative overflow-hidden bg-black  bg-[radial-gradient(ellipse_at_left_top,_#0f2f1d_30%,_#000000_70%)] py-24 lg:py-40"
        >
          <div className="container">
            <div className="mb-10 grid grid-cols-1 items-center gap-x-6 gap-y-12 lg:grid-cols-2">
@@ -55,13 +55,13 @@ const Home = () => {
                  >
                    <div className="flex flex-wrap items-center justify-center gap-6 sm:flex-nowrap sm:justify-start sm:gap-0">
                      <div className="sm:pe-5">
-                       <Icon className="mx-auto h-10 w-10 text-white/50" />
+                       <Icon className="mx-auto h-10 w-10 text-white/60" />
                      </div>
                      <div className="border-[#28A76D]/20 sm:border-s sm:ps-5">
-                       <h2 className="text-xl font-medium text-white/50">
+                       <h2 className="text-xl font-medium text-white/60">
                          {feature.title}
                        </h2>
-                       <p className="mt-3 text-base text-white/50">{feature.description}</p>
+                       <p className="mt-3 text-base text-white/60">{feature.description}</p>
                      </div>
                    </div>
                  </div>

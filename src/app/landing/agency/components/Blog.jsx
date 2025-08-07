@@ -13,7 +13,7 @@ const Blog = () => {
             <h2 className="my-4 text-3xl font-medium capitalize text-white/60">
               Our  <span className="text-[#28A76D]">Services</span>
             </h2>
-            <p className="text-base text-white/50">
+            <p className="text-base text-white/60">
              We help you harness the power of AI and high-performance computing
  to accelerate innovation, optimize performance, and drive real business results
             </p>

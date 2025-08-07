@@ -8,7 +8,7 @@ import Image from "next/image";
 const FAQs = () => {
   return (
 <>
-<div className="my-20">
+<div className="my-20 bg-[radial-gradient(ellipse_at_left,_#0f2f1d_10%,_#000000_80%)]">
  <div className="mx-auto max-w-2xl text-center">
             <span className="rounded-md border border-[#28A76D] bg-[#28A76D]/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/60">
               Products
@@ -16,9 +16,11 @@ const FAQs = () => {
             <h2 className="my-4 text-3xl font-medium capitalize text-white/60">
              <span className="text-[#28A76D]">Products</span>  We  worked on
             </h2>
-            <p className="text-base">
-             We help you harness the power of AI and high-performance computing
- to accelerate innovation, optimize performance, and drive real business results
+            <p className="text-base text-white/60">
+            A lightweight, browser-based GIS monitoring system that uses satellite 
+imagery to track 20 years of environmental and urban changes. 
+It features a customizable dashboard for multi-level users to monitor 
+plantation progress and urban development.
             </p>
           </div>
 

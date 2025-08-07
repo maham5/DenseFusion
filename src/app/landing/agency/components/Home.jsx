@@ -14,8 +14,8 @@ const Home = () => {
            <div className="mb-10 grid grid-cols-1 items-center gap-x-6 gap-y-12 lg:grid-cols-2">
              <div className="max-w-xl">
                <div className="inline-block rounded-full border border-[#28A76D]/40 pe-5">
-                 <div className="flex items-center gap-2">
-                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#28A76D]/40">
+                 <div className="flex gap-2 items-center  text-center">
+                   <div className="flex h-6 w-6 items-center justify-center text-center rounded-full bg-[#28A76D]/40">
                      <LuBell className="h-4 w-4 text-default-950 text-white/70" />
                    </div>
                    <span className="text-xs font-medium text-white/70 md:text-sm">

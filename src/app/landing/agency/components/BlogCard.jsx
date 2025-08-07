@@ -5,7 +5,7 @@ import Image from "next/image";
 const BlogCard = ({ blog }) => {
   return (
 
-<div className="group my-10 w-[400px] h-[400px]  mx-auto [perspective:1000px] cursor-pointer rounded-lg">
+<div className="group my-10 w-[400px] h-[400px]  mx-auto md:mx-4 lg:mx-auto  [perspective:1000px] cursor-pointer rounded-lg">
   <div className="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] shadow-[0_8px_20px_rgba(40,167,109,0.5)] rounded-lg">
 
     {/* Front Face */}

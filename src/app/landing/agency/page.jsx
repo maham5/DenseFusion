@@ -3,10 +3,10 @@ import TopNavBar from "@/components/TopNavBar";
 
 import About from "./components/About";
 import Blog from "./components/Blog";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import FAQs from "./components/FAQs";
 import Home from "./components/Home"
-import Services from "./components/Services";
+// import Services from "./components/Services";
 
 // import OurPortfolio from "./components/OurPortfolio";
 // import Services2 from "./components/Services2";
@@ -45,18 +45,19 @@ const Agency = () => {
 
       <About />
 <Blog/>
-      <Services /> 
-{/* 
-      <OurPortfolio /> */}
+      {/* <Services />  */}
+
+<FAQs/>
+      {/* <OurPortfolio />  */}
 
       {/* <Services2 /> */}
 
    
 
-<FAQs/>
+
    
 
-      <Contact />
+      {/* <Contact /> */}
 
       
     </>

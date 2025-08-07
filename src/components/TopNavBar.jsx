@@ -204,7 +204,7 @@ const TopNavBar = ({ menuItems, position, hasDownloadButton }) => {
                   <li
                     key={idx}
                     className={cn(
-                      "rounded text-sm font-medium capitalize text-white transition-all duration-300 hover:bg-default-100 hover:text-[#28A76D]  [&.active]:bg-default-100 [&.active]:text-[#28A76D] ",
+                      "rounded text-sm font-medium capitalize text-white transition-all duration-300 hover:bg-default-100 hover:text-[#28a76e7b]  [&.active]:bg-default-100 [&.active]:text-[#28A76D] ",
                       activation == `${item}` && "active"
                     )}
                   >

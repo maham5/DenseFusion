@@ -22,12 +22,12 @@ const rem = REM({
 export const metadata = {
   title: {
     default:
-      "AeroPage Next - Tailwind CSS Multipurpose One Page Landing Template",
+      "Dense Fusion",
     template:
-      "%s | AeroPage Next - Tailwind CSS Multipurpose One Page Landing Template",
+      "Applied Supercomputing for Industry Transformation",
   },
   description:
-    "AeroPage - a cutting-edge, one-page template designed for unparalleled performance and seamless user experiences. This versatile template, initially released as AeroPage One Page Template, serves as the perfect starting point for your next project, showcasing expertise in building real websites with Tailwind CSS. The AeroPage Template epitomizes flexibility, user-friendliness, and responsiveness, delivering a seamless browsing experience across various devices, be it desktops, tablets, or mobiles. This template boasts an immaculately organized folder structure, clean code, and comprehensive comments, simplifying the process of customization. Built on the Tailwind CSS, AeroPage ensures compatibility across all devices, and its codebase is fully documented and W3C validated. Elevate your digital presence and captivate your audience with the AeroPage Template today.",
+    "we specialize in applied supercomputing. From healthcare and finance to climate science and manufacturing, we gather domain-specific requirements and deliver high-performance computing infrastructure—on-premise or in the cloud—optimized for your business needs.",
 };
 
 const splashScreenStyles = `

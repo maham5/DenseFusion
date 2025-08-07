@@ -1,4 +1,4 @@
-import companyHero from "@/assets/images/landing/company/hero-img.png";
+
 import { LuBell } from "react-icons/lu";
 import Link from "next/link";
 import { features } from "../../company/data";

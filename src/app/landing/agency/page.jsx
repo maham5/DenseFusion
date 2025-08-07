@@ -34,7 +34,7 @@ const Agency = () => {
       />
 
      
- <Hero1>
+ <Hero1/>
 
     <section className="lg:pb-10">
       <ServicesMarquee />

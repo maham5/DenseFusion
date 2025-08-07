@@ -1,6 +1,6 @@
 import ServicesMarquee from "@/components/ServicesMarquee";
 import TopNavBar from "@/components/TopNavBar";
-import Hero from "./components/Hero"
+import Hero1 from "./components/Hero"
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
@@ -34,7 +34,7 @@ const Agency = () => {
       />
 
      
-    <Hero/>
+ <Hero1>
 
     <section className="lg:pb-10">
       <ServicesMarquee />

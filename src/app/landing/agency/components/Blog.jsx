@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <section id="services" className="py-10 lg:py-20">
+    <section id="services" className="py-10 lg:py-20 bg-[radial-gradient(ellipse_at_left_center,_#0f2f1d_20%,_#000000_70%)]">
       <div className="container">
         <div className="mb-10 flex items-end justify-between ">
           <div className="mx-auto max-w-2xl text-center">

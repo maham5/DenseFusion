@@ -26,11 +26,11 @@ const Company = () => {
 
       <Contact />
 
-      <Services />
+      {/* <Services /> */}
 
       <FAQs />
 
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
 
       <Blogs />
     </>

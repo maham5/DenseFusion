@@ -3,7 +3,7 @@ import agency10 from "@/assets/images/landing/agency/img-10.jpg";
 
 const Services2 = () => {
   return (
-    <section id="serice" className="py-10 lg:py-20">
+    <section id="industries" className="py-10 lg:py-20">
       <div className="container">
         <div className="mb-10 flex items-end justify-between">
           <div className="mx-auto max-w-2xl text-center">

@@ -7,7 +7,7 @@ import image3 from "@/assets/images/landing/agency/image/image3.jpg"
 
 const About = () => {
   return (
-    <section id="about " className="py-10 lg:py-20 bg-[radial-gradient(ellipse_at_left,_#0f2f1d_10%,_#000000_80%)]">
+    <section id="about" className="py-10 lg:py-20 bg-[radial-gradient(ellipse_at_right_center,_#0f2f1d_20%,_#000000_70%)]">
       <div className="container">
         <div className="mb-10 flex items-end justify-between">
           <div className="mx-auto max-w-2xl text-center">

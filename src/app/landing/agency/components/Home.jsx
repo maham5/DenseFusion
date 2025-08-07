@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section
          id="home"
-         className="relative overflow-hidden bg-black  bg-[radial-gradient(ellipse_at_left_top,_#0f2f1d_30%,_#000000_70%)] py-24 lg:py-40"
+         className="relative overflow-hidden bg-black bg-[radial-gradient(ellipse_at_left_top,_#0f2f1d_30%,_#000000_70%)]  py-24 lg:py-40"
        >
          <div className="container">
            <div className="mb-10 grid grid-cols-1 items-center gap-x-6 gap-y-12 lg:grid-cols-2">

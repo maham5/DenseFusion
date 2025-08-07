@@ -58,12 +58,13 @@ const TopNavBar = ({ menuItems, position, hasDownloadButton }) => {
       <header
         ref={navbarRef}
         id="navbar"
-        className={cn(
-          position,
-          "inset-x-0 top-0 z-[60] w-full  border-transparent bg-black transition-all duration-300 dark:bg-default-50 lg:bg-transparent [&.nav-sticky]:bg-black/90 [&.nav-sticky]:shadow-md [&.nav-sticky]:backdrop-blur-3xl dark:[&.nav-sticky]:bg-default-50/80"
-        )}
+       className={cn(
+  position,
+  "inset-x-0 top-0 z-[60] w-full border-transparent bg-transparent transition-all duration-300 lg:bg-transparent [&.nav-sticky]:bg-transparent [&.nav-sticky]:shadow-none [&.nav-sticky]:backdrop-blur-none dark:[&.nav-sticky]:bg-transparent"
+)}
+
       >
-        <div className="flex h-full items-center py-4 bg-black">
+        <div className="flex h-full items-center py-4 ">
           <div className="container">
             <nav className="flex flex-wrap items-center justify-between gap-4 lg:flex-nowrap">
               <div className="flex w-full items-center justify-between lg:w-auto">

@@ -8,7 +8,7 @@ import Image from "next/image";
 const FAQs = () => {
   return (
 <>
-<div className="my-20 bg-[radial-gradient(ellipse_at_left,_#0f2f1d_10%,_#000000_80%)]">
+<div className="my-20 bg-[radial-gradient(ellipse_at_center,_#0f2f1d_20%,_#000000_70%)]">
  <div className="mx-auto max-w-2xl text-center">
             <span className="rounded-md border border-[#28A76D] bg-[#28A76D]/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/60">
               Products

@@ -5,7 +5,7 @@ import Agency from "@/app/landing/agency/page"
 //   Hero,
  //LandingDemos,
 //   SecurityDemos,
-//   Footer,
+ Footer,
 //   Features,
  } from "@/components/home";
 
@@ -24,9 +24,9 @@ export default function Home() {
 
       <SecurityDemos />
 
-      <Features />
+      <Features />*/}
 
-      <Footer /> */}
+      <Footer /> 
     </>
   ); 
 }

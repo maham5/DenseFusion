@@ -6,6 +6,8 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import FAQs from "./components/FAQs";
 import Home from "./components/Home"
+import Services from "./components/Services";
+
 // import OurPortfolio from "./components/OurPortfolio";
 // import Services2 from "./components/Services2";
 
@@ -16,7 +18,7 @@ export const metadata = {
 
 const Agency = () => {
   return (
-     <div className="bg-black">
+     <div className="bg-black  bg-[radial-gradient(ellipse_at_left_top,_#0f2f1d_30%,_#000000_70%)]">
     <>
    
       <TopNavBar  
@@ -43,17 +45,19 @@ const Agency = () => {
 
       <About />
 <Blog/>
-      {/* <Services /> */}
-
-      {/* <OurPortfolio /> */}
+      <Services /> 
+{/* 
+      <OurPortfolio /> */}
 
       {/* <Services2 /> */}
 
-      <FAQs />
+   
 
+<FAQs/>
    
 
       <Contact />
+
       
     </>
     </div>

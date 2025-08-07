@@ -1,5 +1,5 @@
 import TopNavBar from "@/components/TopNavBar";
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
 import Brands from "./components/Brands";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
@@ -20,7 +20,7 @@ const Company = () => {
         hasDownloadButton
       />
 
-      <Hero />
+      {/* <Hero /> */}
 
       <Brands />
 

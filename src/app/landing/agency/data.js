@@ -1,12 +1,12 @@
 import { LuComponent, LuLayers, LuLayoutGrid } from "react-icons/lu";
 
-import img1 from "@/assets/images/landing/agency/computer.jpg";
-import img2 from "@/assets/images/landing/agency/design.jpg"
+import img1 from "@/assets/images/landing/agency/Superconsulting.png";
+import img2 from "@/assets/images/landing/agency/Hpc Design.png"
 import img3 from "@/assets/images/landing/agency/ai.jpg"
 import img4 from "@/assets/images/landing/agency/software.jpg"
-import img5 from "@/assets/images/landing/agency/hpc.jpg";
+import img5 from "@/assets/images/landing/agency/Domain.png";
 import img6 from "@/assets/images/landing/agency/Education.png"
-
+import image1 from "@/assets/images/landing/agency/plantx.png"
 
 
 const homeSwiperSlides = [
@@ -134,4 +134,12 @@ const blogs = [
   },
 ];
 
-export { homeSwiperSlides, services, portfolioSlides, faqContents, blogs };
+const products = [
+  {
+    image:image1
+  }
+]
+
+export { homeSwiperSlides, services, portfolioSlides, faqContents, blogs,products };
+
+

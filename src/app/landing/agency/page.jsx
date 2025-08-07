@@ -1,13 +1,13 @@
 import ServicesMarquee from "@/components/ServicesMarquee";
 import TopNavBar from "@/components/TopNavBar";
-// import Hero1 from "./components/Hero"
+
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import FAQs from "./components/FAQs";
-
-import OurPortfolio from "./components/OurPortfolio";
-import Services2 from "./components/Services2";
+import Home from "./components/Home"
+// import OurPortfolio from "./components/OurPortfolio";
+// import Services2 from "./components/Services2";
 
 
 export const metadata = {
@@ -25,7 +25,7 @@ const Agency = () => {
           "about",
           "services",
           "industries",
-          "faq",
+          "Products",
           "blog",
           "contact",
         ]}
@@ -34,7 +34,7 @@ const Agency = () => {
       />
 
      
- {/* <Hero1/> */}
+ <Home/>
 
     <section className="lg:pb-10">
       <ServicesMarquee />
@@ -45,9 +45,9 @@ const Agency = () => {
 <Blog/>
       {/* <Services /> */}
 
-      <OurPortfolio />
+      {/* <OurPortfolio /> */}
 
-      <Services2 />
+      {/* <Services2 /> */}
 
       <FAQs />
 

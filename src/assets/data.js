@@ -5,19 +5,19 @@ export const footerLinks = [
     title: "Company",
     items: [
       {
-        name: "About",
+        name: "About Us",
       },
       {
         name: "Services",
       },
       {
-        name: "Portfolio",
+        name: "Industries",
       },
       {
-        name: "Blog",
+        name: "Products",
       },
       {
-        name: "Contact",
+        name: "Contact Us",
       },
     ],
   },

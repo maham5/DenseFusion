@@ -8,6 +8,7 @@ const config = {
     "node_modules/preline/dist/*.js",
   ],
 
+  
   darkMode: ["class"],
   safelist: [
     {

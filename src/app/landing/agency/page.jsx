@@ -36,9 +36,9 @@ const Agency = () => {
      
  <Home/>
 
-    <section className="lg:pb-10">
+    {/* <section className="lg:pb-10">
       <ServicesMarquee />
-    </section>
+    </section> */}
 
 
       <About />

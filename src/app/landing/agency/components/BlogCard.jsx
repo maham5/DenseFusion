@@ -12,7 +12,7 @@ const BlogCard = ({ blog }) => {
     <div className="absolute w-full h-full [backface-visibility:hidden] rounded-lg overflow-hidden border border-[#28A76D]">
       <div className="relative w-full h-full">
         <Image src={blog.image} alt="blog" className="w-full h-full object-cover rounded-lg" />
-        <div className="absolute inset-0 bg-black/20 flex items-end p-4">
+        <div className="absolute inset-0 bg-black/30 flex items-end p-4">
           <h2 className="text-2xl font-light text-white/80">{blog.title}</h2>
         </div>
       </div>

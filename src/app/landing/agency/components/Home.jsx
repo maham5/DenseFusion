@@ -45,13 +45,13 @@ const Home = () => {
                <Image alt="companyHero" src={companyHero} />
              </div> */}
            </div>
-           <div className="grid gap-6 lg:grid-cols-3">
+           <div className="grid gap-6 lg:grid-cols-3 items-center">
              {features.map((feature, idx) => {
                const Icon = feature.icon;
                return (
                  <div
                    key={idx}
-                   className="rounded-xl border mt-20 border-[#28A76D]/40 bg-black p-6 text-center sm:text-start"
+                   className="rounded-xl border mt-20 border-[#28A76D]/40 bg-black p-6  sm:text-start text-center flex flex-col items-center justify-center"
                  >
                    <div className="flex flex-wrap items-center justify-center gap-6 sm:flex-nowrap sm:justify-start sm:gap-0">
                      <div className="sm:pe-5">

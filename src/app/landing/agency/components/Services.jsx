@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Services = () => {
   return (
-    <section id="services" className="py-10 lg:py-20">
+    <section id="industries" className="py-10 lg:py-20">
       <div className="container">
         <div className="mb-10 flex items-end justify-between">
           <div className="mx-auto max-w-2xl text-center">

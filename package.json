@@ -7,7 +7,7 @@
     "url": "https://coderthemes.com/"
   },
   "scripts": {
-    "dev": "next dev --turbo ",
+    "dev": "next dev --turbo -p 4000",
     "build": "next build",
      
     "start": "next start",

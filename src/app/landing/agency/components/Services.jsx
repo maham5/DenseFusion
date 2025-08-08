@@ -1,49 +1,247 @@
 import { LuMoveRight } from "react-icons/lu";
+import Image from "next/image";
 import { services } from "../data";
 import Link from "next/link";
+import img1 from "@/assets/images/landing/agency/culture.png"
+import img2 from "@/assets/images/landing/agency/education2.png"
+import img3 from"@/assets/images/landing/agency/govrnment.png"
+import img4 from "@/assets/images/landing/agency/defenses.png"
+import img5 from "@/assets/images/landing/agency/climates.png"
+import img6 from "@/assets/images/landing/agency/finance.png"
+
 
 const Services = () => {
   return (
-    <section id="industries" className="py-10 lg:py-20 bg-[radial-gradient(ellipse_at_top_left,_#0f2f1d_30%,_#000000_70%)]">
-      <div className="container  bg-transparent ">
-        <div className="mb-10 flex items-end justify-between">
+    <section id="industries" className="py-10 lg:py-20 bg-black  bg-[radial-gradient(ellipse_at_right,_#0f2f1d_30%,_#000000_70%)]">
+   <div className="container">
+        <div className="mb-10 flex items-end justify-between ">
           <div className="mx-auto max-w-2xl text-center">
-            <span className="rounded-md border border-primary bg-primary/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-primary">
-              Services
+            <span className="rounded-md border border-[#28A76D] bg-[#28A76D]/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/60">
+              Industries
             </span>
-            <h2 className="my-4 text-4xl font-medium capitalize text-default-950">
-              Our Services
+            <h2 className="my-4 text-3xl font-medium capitalize text-white/60">
+              industries <span className="text-[#28A76D]">We serves</span>
             </h2>
-            <p className="text-base">
-              Lorem ipsum dummy text are usually use print and website industry.
-            </p>
+           
           </div>
         </div>
-        <div className="grid grid-cols-1 items-center divide-y divide-default-200 overflow-hidden rounded-md bg-default-100 dark:bg-default-50 lg:grid-cols-3 lg:divide-x lg:divide-y-0">
-          {services.map((service, idx) => {
-            const Icon = service.icon;
-            return (
-              <div key={idx} className="group">
-                <div className="p-8 sm:p-10">
-                  <span>
-                    <Icon className="h-14 w-14 text-default-950" />
-                  </span>
-                  <h2 className="mb-4 mt-8 text-2xl font-medium text-default-950">
-                    {service.title}
-                  </h2>
-                  <p className="mb-6 text-base">{service.description}</p>
-                  <Link href="" className="text-lg text-default-950">
-                    Read More
-                    <LuMoveRight className="inline-block h-6 w-6 opacity-0 transition-all duration-500 will-change-transform group-hover:translate-x-2 group-hover:opacity-100" />
-                  </Link>
-                </div>
-              </div>
-            );
-          })}
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 justify-items-center mx-auto">
+         <div className="group flex flex-col items-center py-4 text-sm bg-white w-64 rounded-md cursor-pointer hover:bg-[#28A76D]   transition">
+    <Image className="w-36  rounded-full" src={img4} alt="userImage2" />
+    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Defense</h2>
+</div>
+
+
+
+
+
+
+                 <div className="group flex flex-col items-center py-4 text-sm bg-white w-64 rounded-md cursor-pointer hover:bg-[#28A76D]  transition">
+    <Image className="w-36  rounded-full" src={img3} alt="userImage2" />
+    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Government</h2>
+</div>
+
+
+
+                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md cursor-pointer hover:bg-[#28A76D]  transition">
+    <Image className="w-36  rounded-full" src={img2} alt="userImage2" />
+    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Education & Research</h2>
+</div>
+
+
+
+
+                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md cursor-pointer hover:bg-[#28A76D]  transition">
+    <Image className="w-36  rounded-full" src={img1} alt="userImage2" />
+    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Agriculture</h2>
+</div>
+
+
+
+
+                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md cursor-pointer hover:bg-[#28A76D] transition">
+ <Image className="w-36  rounded-full" src={img5} alt="userImage2" />
+    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Climate</h2>
+</div>
+
+
+
+                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md hover:bg-[#28A76D] cursor-pointerhover:bg-[#28A76D]  transition">
+    <Image className="w-36 rounded-full" src={img6} alt="userImage2" />
+    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Banking & Finance</h2>
+</div>
+
+
+                 
         </div>
       </div>
     </section>
+
+
+
   );
 };
+
+
+{/*      
+        <div className="flex flex-col items-center ">
+<span className="rounded-md border border-[#28A76D] bg-[#28A76D]/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/60">
+              Products
+            </span>
+            <h2 className="my-4 text-3xl font-medium capitalize text-white/60">
+              <span className="text-[#28A76D]">Products</span> We worked on
+            </h2>
+            <p className="text-base text-white/60">
+            Our products harness advanced GIS technologies to provide accurate, real-time insights.
+By integrating satellite imagery with robust analytics, they enable long-term monitoring of environmental and urban transformations.
+            </p>
+            <div className="flex flex-wrap gap-6 items-center justify-center">
+                <div className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-blue-600 hover:bg-blue-600 transition">
+                    <img className="w-24 rounded-full" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200" alt="userImage1" />
+                    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Donald Jackman</h2>
+                    <p className="text-gray-500 group-hover:text-white/80">Content Creator</p>
+                    <p className="text-center text-gray-500/60 group-hover:text-white/60 w-3/4 mt-4">Lorem Ipsum is simply dummy text of the printing</p>
+                    <div className="flex items-center space-x-4 mt-6 text-gray-500 group-hover:text-white">
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.882 0H1.167A1.16 1.16 0 0 0 0 1.161V14.84C0 15.459.519 16 1.167 16H14.83a1.16 1.16 0 0 0 1.166-1.161V1.135C16.048.516 15.53 0 14.882 0M4.744 13.6H2.385V5.987h2.36zM3.552 4.929c-.778 0-1.374-.62-1.374-1.368a1.38 1.38 0 0 1 1.374-1.367 1.38 1.38 0 0 1 1.374 1.367c0 .749-.57 1.368-1.374 1.368M11.33 13.6V9.91c0-.878-.026-2.039-1.245-2.039-1.244 0-1.426.98-1.426 1.961V13.6H6.3V5.987h2.307v1.058h.026c.337-.62 1.09-1.239 2.256-1.239 2.411 0 2.852 1.549 2.852 3.665V13.6z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.095 0H1.905C.855 0 0 .854 0 1.905v12.19C0 15.145.854 16 1.905 16h12.19c1.05 0 1.905-.854 1.905-1.905V1.905C16 .855 15.146 0 14.095 0m-1.521 6.98a2.85 2.85 0 0 1-2.651-1.277v4.395A3.248 3.248 0 1 1 6.674 6.85c.068 0 .134.006.201.01v1.6c-.067-.007-.132-.02-.2-.02a1.658 1.658 0 1 0 0 3.316c.915 0 1.724-.721 1.724-1.637l.016-7.465h1.531a2.85 2.85 0 0 0 2.63 2.547v1.78" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m16.358 2.613 1.128-1.425c.326-.386.416-.683.445-.832-.89.535-1.722.713-2.256.713h-.208L15.348.95A3.83 3.83 0 0 0 12.795 0c-2.078 0-3.71 1.722-3.71 3.71 0 .12 0 .298.03.417l.088.593-.623-.03C4.78 4.573 1.663 1.307 1.158.743c-.831 1.485-.356 2.91.148 3.8l1.01 1.663-1.603-.89q.044 1.87 1.425 2.938l.801.594-.801.326c.504 1.515 1.632 2.138 2.464 2.375l1.098.297-1.04.713C2.999 13.745.92 13.656 0 13.568c1.87 1.305 4.097 1.602 5.64 1.602 1.158 0 2.02-.118 2.227-.207 8.313-1.96 8.699-9.382 8.699-10.866v-.208l.178-.119c1.01-.95 1.425-1.454 1.662-1.751-.089.03-.208.089-.326.119z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+        
+                <div className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-blue-600 hover:bg-blue-600 transition">
+                    <img className="w-24 rounded-full" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200" alt="userImage2" />
+                    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Richard Nelson</h2>
+                    <p className="text-gray-500 group-hover:text-white/80">Content Writer</p>
+                    <p className="text-center text-gray-500/60 group-hover:text-white/60 w-3/4 mt-4">Lorem Ipsum is simply dummy text of the printing</p>
+                    <div className="flex items-center space-x-4 mt-6 text-gray-500 group-hover:text-white">
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.882 0H1.167A1.16 1.16 0 0 0 0 1.161V14.84C0 15.459.519 16 1.167 16H14.83a1.16 1.16 0 0 0 1.166-1.161V1.135C16.048.516 15.53 0 14.882 0M4.744 13.6H2.385V5.987h2.36zM3.552 4.929c-.778 0-1.374-.62-1.374-1.368a1.38 1.38 0 0 1 1.374-1.367 1.38 1.38 0 0 1 1.374 1.367c0 .749-.57 1.368-1.374 1.368M11.33 13.6V9.91c0-.878-.026-2.039-1.245-2.039-1.244 0-1.426.98-1.426 1.961V13.6H6.3V5.987h2.307v1.058h.026c.337-.62 1.09-1.239 2.256-1.239 2.411 0 2.852 1.549 2.852 3.665V13.6z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.095 0H1.905C.855 0 0 .854 0 1.905v12.19C0 15.145.854 16 1.905 16h12.19c1.05 0 1.905-.854 1.905-1.905V1.905C16 .855 15.146 0 14.095 0m-1.521 6.98a2.85 2.85 0 0 1-2.651-1.277v4.395A3.248 3.248 0 1 1 6.674 6.85c.068 0 .134.006.201.01v1.6c-.067-.007-.132-.02-.2-.02a1.658 1.658 0 1 0 0 3.316c.915 0 1.724-.721 1.724-1.637l.016-7.465h1.531a2.85 2.85 0 0 0 2.63 2.547v1.78" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m16.358 2.613 1.128-1.425c.326-.386.416-.683.445-.832-.89.535-1.722.713-2.256.713h-.208L15.348.95A3.83 3.83 0 0 0 12.795 0c-2.078 0-3.71 1.722-3.71 3.71 0 .12 0 .298.03.417l.088.593-.623-.03C4.78 4.573 1.663 1.307 1.158.743c-.831 1.485-.356 2.91.148 3.8l1.01 1.663-1.603-.89q.044 1.87 1.425 2.938l.801.594-.801.326c.504 1.515 1.632 2.138 2.464 2.375l1.098.297-1.04.713C2.999 13.745.92 13.656 0 13.568c1.87 1.305 4.097 1.602 5.64 1.602 1.158 0 2.02-.118 2.227-.207 8.313-1.96 8.699-9.382 8.699-10.866v-.208l.178-.119c1.01-.95 1.425-1.454 1.662-1.751-.089.03-.208.089-.326.119z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-blue-600 hover:bg-blue-600 transition">
+                    <img className="w-24 rounded-full" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200" alt="userImage2" />
+                    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Richard Nelson</h2>
+                    <p className="text-gray-500 group-hover:text-white/80">Content Writer</p>
+                    <p className="text-center text-gray-500/60 group-hover:text-white/60 w-3/4 mt-4">Lorem Ipsum is simply dummy text of the printing</p>
+                    <div className="flex items-center space-x-4 mt-6 text-gray-500 group-hover:text-white">
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.882 0H1.167A1.16 1.16 0 0 0 0 1.161V14.84C0 15.459.519 16 1.167 16H14.83a1.16 1.16 0 0 0 1.166-1.161V1.135C16.048.516 15.53 0 14.882 0M4.744 13.6H2.385V5.987h2.36zM3.552 4.929c-.778 0-1.374-.62-1.374-1.368a1.38 1.38 0 0 1 1.374-1.367 1.38 1.38 0 0 1 1.374 1.367c0 .749-.57 1.368-1.374 1.368M11.33 13.6V9.91c0-.878-.026-2.039-1.245-2.039-1.244 0-1.426.98-1.426 1.961V13.6H6.3V5.987h2.307v1.058h.026c.337-.62 1.09-1.239 2.256-1.239 2.411 0 2.852 1.549 2.852 3.665V13.6z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.095 0H1.905C.855 0 0 .854 0 1.905v12.19C0 15.145.854 16 1.905 16h12.19c1.05 0 1.905-.854 1.905-1.905V1.905C16 .855 15.146 0 14.095 0m-1.521 6.98a2.85 2.85 0 0 1-2.651-1.277v4.395A3.248 3.248 0 1 1 6.674 6.85c.068 0 .134.006.201.01v1.6c-.067-.007-.132-.02-.2-.02a1.658 1.658 0 1 0 0 3.316c.915 0 1.724-.721 1.724-1.637l.016-7.465h1.531a2.85 2.85 0 0 0 2.63 2.547v1.78" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m16.358 2.613 1.128-1.425c.326-.386.416-.683.445-.832-.89.535-1.722.713-2.256.713h-.208L15.348.95A3.83 3.83 0 0 0 12.795 0c-2.078 0-3.71 1.722-3.71 3.71 0 .12 0 .298.03.417l.088.593-.623-.03C4.78 4.573 1.663 1.307 1.158.743c-.831 1.485-.356 2.91.148 3.8l1.01 1.663-1.603-.89q.044 1.87 1.425 2.938l.801.594-.801.326c.504 1.515 1.632 2.138 2.464 2.375l1.098.297-1.04.713C2.999 13.745.92 13.656 0 13.568c1.87 1.305 4.097 1.602 5.64 1.602 1.158 0 2.02-.118 2.227-.207 8.313-1.96 8.699-9.382 8.699-10.866v-.208l.178-.119c1.01-.95 1.425-1.454 1.662-1.751-.089.03-.208.089-.326.119z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-blue-600 hover:bg-blue-600 transition">
+                    <img className="w-24 rounded-full" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200" alt="userImage2" />
+                    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Richard Nelson</h2>
+                    <p className="text-gray-500 group-hover:text-white/80">Content Writer</p>
+                    <p className="text-center text-gray-500/60 group-hover:text-white/60 w-3/4 mt-4">Lorem Ipsum is simply dummy text of the printing</p>
+                    <div className="flex items-center space-x-4 mt-6 text-gray-500 group-hover:text-white">
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.882 0H1.167A1.16 1.16 0 0 0 0 1.161V14.84C0 15.459.519 16 1.167 16H14.83a1.16 1.16 0 0 0 1.166-1.161V1.135C16.048.516 15.53 0 14.882 0M4.744 13.6H2.385V5.987h2.36zM3.552 4.929c-.778 0-1.374-.62-1.374-1.368a1.38 1.38 0 0 1 1.374-1.367 1.38 1.38 0 0 1 1.374 1.367c0 .749-.57 1.368-1.374 1.368M11.33 13.6V9.91c0-.878-.026-2.039-1.245-2.039-1.244 0-1.426.98-1.426 1.961V13.6H6.3V5.987h2.307v1.058h.026c.337-.62 1.09-1.239 2.256-1.239 2.411 0 2.852 1.549 2.852 3.665V13.6z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.095 0H1.905C.855 0 0 .854 0 1.905v12.19C0 15.145.854 16 1.905 16h12.19c1.05 0 1.905-.854 1.905-1.905V1.905C16 .855 15.146 0 14.095 0m-1.521 6.98a2.85 2.85 0 0 1-2.651-1.277v4.395A3.248 3.248 0 1 1 6.674 6.85c.068 0 .134.006.201.01v1.6c-.067-.007-.132-.02-.2-.02a1.658 1.658 0 1 0 0 3.316c.915 0 1.724-.721 1.724-1.637l.016-7.465h1.531a2.85 2.85 0 0 0 2.63 2.547v1.78" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m16.358 2.613 1.128-1.425c.326-.386.416-.683.445-.832-.89.535-1.722.713-2.256.713h-.208L15.348.95A3.83 3.83 0 0 0 12.795 0c-2.078 0-3.71 1.722-3.71 3.71 0 .12 0 .298.03.417l.088.593-.623-.03C4.78 4.573 1.663 1.307 1.158.743c-.831 1.485-.356 2.91.148 3.8l1.01 1.663-1.603-.89q.044 1.87 1.425 2.938l.801.594-.801.326c.504 1.515 1.632 2.138 2.464 2.375l1.098.297-1.04.713C2.999 13.745.92 13.656 0 13.568c1.87 1.305 4.097 1.602 5.64 1.602 1.158 0 2.02-.118 2.227-.207 8.313-1.96 8.699-9.382 8.699-10.866v-.208l.178-.119c1.01-.95 1.425-1.454 1.662-1.751-.089.03-.208.089-.326.119z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-blue-600 hover:bg-blue-600 transition">
+                    <img className="w-24 rounded-full" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200" alt="userImage2" />
+                    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Richard Nelson</h2>
+                    <p className="text-gray-500 group-hover:text-white/80">Content Writer</p>
+                    <p className="text-center text-gray-500/60 group-hover:text-white/60 w-3/4 mt-4">Lorem Ipsum is simply dummy text of the printing</p>
+                    <div className="flex items-center space-x-4 mt-6 text-gray-500 group-hover:text-white">
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.882 0H1.167A1.16 1.16 0 0 0 0 1.161V14.84C0 15.459.519 16 1.167 16H14.83a1.16 1.16 0 0 0 1.166-1.161V1.135C16.048.516 15.53 0 14.882 0M4.744 13.6H2.385V5.987h2.36zM3.552 4.929c-.778 0-1.374-.62-1.374-1.368a1.38 1.38 0 0 1 1.374-1.367 1.38 1.38 0 0 1 1.374 1.367c0 .749-.57 1.368-1.374 1.368M11.33 13.6V9.91c0-.878-.026-2.039-1.245-2.039-1.244 0-1.426.98-1.426 1.961V13.6H6.3V5.987h2.307v1.058h.026c.337-.62 1.09-1.239 2.256-1.239 2.411 0 2.852 1.549 2.852 3.665V13.6z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.095 0H1.905C.855 0 0 .854 0 1.905v12.19C0 15.145.854 16 1.905 16h12.19c1.05 0 1.905-.854 1.905-1.905V1.905C16 .855 15.146 0 14.095 0m-1.521 6.98a2.85 2.85 0 0 1-2.651-1.277v4.395A3.248 3.248 0 1 1 6.674 6.85c.068 0 .134.006.201.01v1.6c-.067-.007-.132-.02-.2-.02a1.658 1.658 0 1 0 0 3.316c.915 0 1.724-.721 1.724-1.637l.016-7.465h1.531a2.85 2.85 0 0 0 2.63 2.547v1.78" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m16.358 2.613 1.128-1.425c.326-.386.416-.683.445-.832-.89.535-1.722.713-2.256.713h-.208L15.348.95A3.83 3.83 0 0 0 12.795 0c-2.078 0-3.71 1.722-3.71 3.71 0 .12 0 .298.03.417l.088.593-.623-.03C4.78 4.573 1.663 1.307 1.158.743c-.831 1.485-.356 2.91.148 3.8l1.01 1.663-1.603-.89q.044 1.87 1.425 2.938l.801.594-.801.326c.504 1.515 1.632 2.138 2.464 2.375l1.098.297-1.04.713C2.999 13.745.92 13.656 0 13.568c1.87 1.305 4.097 1.602 5.64 1.602 1.158 0 2.02-.118 2.227-.207 8.313-1.96 8.699-9.382 8.699-10.866v-.208l.178-.119c1.01-.95 1.425-1.454 1.662-1.751-.089.03-.208.089-.326.119z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+        
+                <div className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-blue-600 hover:bg-blue-600 transition">
+                    <img className="w-24 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop" alt="userImage3" />
+                    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">James Washington</h2>
+                    <p className="text-gray-500 group-hover:text-white/80">Content Marketing</p>
+                    <p className="text-center text-gray-500/60 group-hover:text-white/60 w-3/4 mt-4">Lorem Ipsum is simply dummy text of the printing</p>
+                    <div className="flex items-center space-x-4 mt-6 text-gray-500 group-hover:text-white">
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.882 0H1.167A1.16 1.16 0 0 0 0 1.161V14.84C0 15.459.519 16 1.167 16H14.83a1.16 1.16 0 0 0 1.166-1.161V1.135C16.048.516 15.53 0 14.882 0M4.744 13.6H2.385V5.987h2.36zM3.552 4.929c-.778 0-1.374-.62-1.374-1.368a1.38 1.38 0 0 1 1.374-1.367 1.38 1.38 0 0 1 1.374 1.367c0 .749-.57 1.368-1.374 1.368M11.33 13.6V9.91c0-.878-.026-2.039-1.245-2.039-1.244 0-1.426.98-1.426 1.961V13.6H6.3V5.987h2.307v1.058h.026c.337-.62 1.09-1.239 2.256-1.239 2.411 0 2.852 1.549 2.852 3.665V13.6z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.095 0H1.905C.855 0 0 .854 0 1.905v12.19C0 15.145.854 16 1.905 16h12.19c1.05 0 1.905-.854 1.905-1.905V1.905C16 .855 15.146 0 14.095 0m-1.521 6.98a2.85 2.85 0 0 1-2.651-1.277v4.395A3.248 3.248 0 1 1 6.674 6.85c.068 0 .134.006.201.01v1.6c-.067-.007-.132-.02-.2-.02a1.658 1.658 0 1 0 0 3.316c.915 0 1.724-.721 1.724-1.637l.016-7.465h1.531a2.85 2.85 0 0 0 2.63 2.547v1.78" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m16.358 2.613 1.128-1.425c.326-.386.416-.683.445-.832-.89.535-1.722.713-2.256.713h-.208L15.348.95A3.83 3.83 0 0 0 12.795 0c-2.078 0-3.71 1.722-3.71 3.71 0 .12 0 .298.03.417l.088.593-.623-.03C4.78 4.573 1.663 1.307 1.158.743c-.831 1.485-.356 2.91.148 3.8l1.01 1.663-1.603-.89q.044 1.87 1.425 2.938l.801.594-.801.326c.504 1.515 1.632 2.138 2.464 2.375l1.098.297-1.04.713C2.999 13.745.92 13.656 0 13.568c1.87 1.305 4.097 1.602 5.64 1.602 1.158 0 2.02-.118 2.227-.207 8.313-1.96 8.699-9.382 8.699-10.866v-.208l.178-.119c1.01-.95 1.425-1.454 1.662-1.751-.089.03-.208.089-.326.119z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> */}
+
 
 export default Services;

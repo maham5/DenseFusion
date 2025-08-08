@@ -74,9 +74,9 @@ const TopNavBar = ({ menuItems, position, hasDownloadButton }) => {
                     alt="logo"
                     height={40}
                     width={147}
-                    className="flex h-15 dark:hidden"
+                    className="flex h-15 "
                   />
-                  <Image
+                  {/* <Image
                     src={logoLight}
                     alt="logo"
                     height={40
@@ -84,7 +84,7 @@ const TopNavBar = ({ menuItems, position, hasDownloadButton }) => {
                     }
                     width={137}
                     className="hidden h-12 dark:flex"
-                  />
+                  /> */}
                 </Link>
                 <div className="flex items-center gap-2">
                   {hasDownloadButton && (

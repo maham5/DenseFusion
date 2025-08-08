@@ -1,8 +1,8 @@
 import { LuComponent, LuLayers, LuLayoutGrid } from "react-icons/lu";
 
-import img1 from "@/assets/images/landing/agency/Superconsulting.png";
- import img2 from "@/assets/images/landing/agency/HPC.png"
-// import img3 from "@/assets/images/landing/agency/Ai.png"
+import img1 from "@/assets/images/landing/agency/computing.jpeg";
+ import img2 from "@/assets/images/landing/agency/hpc.png"
+import img3 from "@/assets/images/landing/agency/aihpc.png"
 import img4 from "@/assets/images/landing/agency/software.png"
 import img5 from "@/assets/images/landing/agency/Domain.png";
 import img6 from "@/assets/images/landing/agency/Education.png"
@@ -113,7 +113,7 @@ const blogs = [
   {
     title: "AI + HPC Integration",
     desc1:"End-to-End AI/ML Workflow Acceleration on HPC Distributed Training & Model Parallelism Multimodal Data Processing (images, Text, Video, Satellite) Generative AI on Supercomputing-Infrastructure AI Model Optimization for HPC environments",
-     image: img1,
+     image: img3,
   },
   {
     title: "Software Stack Installation & Optimization",

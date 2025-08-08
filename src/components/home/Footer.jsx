@@ -7,7 +7,8 @@ const Footer = () => {
    
 
       <footer className="px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full bg-black bg-[radial-gradient(ellipse_at_left_bottom,_#0f2f1d_30%,_#000000_70%)] text-white/70">
-  <div className="flex flex-col md:flex-row justify-around w-full gap-10 border-b border-gray-500/30 pb-6">
+    <div className="border-t border-gray-500/30 mt-4"></div>
+  <div className="flex flex-col md:flex-row  mt-4 justify-around w-full gap-10 border-b border-gray-500/30 pb-6">
     {/* Left column */}
     <div className="md:max-w-96 ml-10">
       <div className="flex items-center gap-2">
@@ -61,7 +62,7 @@ const Footer = () => {
   </div>
 
   <p className="pt-4 text-center text-xs md:text-sm pb-5">
-    Copyright 2024 © Dense Fusion. All Right Reserved.
+    Copyright 2025 © Dense Fusion. All Right Reserved.
   </p>
 </footer>
 

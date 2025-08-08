@@ -1,0 +1,14 @@
+{
+  "src/app/layout.jsx -> @/components/AppsProviderWrapper": {
+    "id": "src/app/layout.jsx -> @/components/AppsProviderWrapper",
+    "files": [
+      "chunks/_a5dc05._.js"
+    ]
+  },
+  "src/app/layout.jsx -> @/components/BackToTop": {
+    "id": "src/app/layout.jsx -> @/components/BackToTop",
+    "files": [
+      "chunks/_bd4026._.js"
+    ]
+  }
+}

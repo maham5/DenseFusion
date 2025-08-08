@@ -20,36 +20,36 @@ const Contact = () => {
     </div>
 
     {/* Right side - Form */}
-    <form className="lg:w-1/2 flex flex-col text-sm text-white  p-6 rounded-lg bg-white">
-    <h1 className="text-xl font-bold text-black ">
+    <form className="lg:w-1/2 flex flex-col text-sm text-white/70  p-6 rounded-lg bg-black/30">
+    <h1 className="text-xl font-bold text-white/70 ">
        Feel Free to get In touch with us
       </h1>
-      <p className="max-md:text-xl text-gray-600 my-3">
+      <p className="max-md:text-xl text-white/60 my-3">
        Got a question or a project idea? Let’s talk! Whether it’s AI, HPC, or a unique solution you have in mind, our team is ready to collaborate and help you succeed</p>
-      <label className="font-medium text-black">Full Name</label>
-      <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300   rounded-full overflow-hidden">
+      <label className="font-medium text-white/70">Full Name</label>
+      <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-700   rounded-full overflow-hidden">
         <input
           type="text"
-          className="h-full px-2 w-full outline-none border-none bg-transparent text-black"
+          className="h-full px-2 w-full outline-none border-none bg-transparent text-white/70"
           placeholder="Enter your full name"
           required
         />
       </div>
 
-      <label className="font-medium mt-4 text-black">Email Address</label>
-      <div className="flex items-center mt-2 mb-4 h-10 pl-5 border border-slate-300  rounded-full overflow-hidden">
+      <label className="font-medium mt-4 text-white/70">Email Address</label>
+      <div className="flex items-center mt-2 mb-4 h-10 pl-5 border border-slate-700  rounded-full overflow-hidden">
         <input
           type="email"
-          className="h-full px-2 w-full outline-none border-none bg-transparent border border-slate-800 text-black"
+          className="h-full px-2 w-full outline-none border-none bg-transparent border border-slate-800 text-white/70"
           placeholder="Enter your email address"
           required
         />
       </div>
 
-      <label className="font-medium mt-4 text-black">Message</label>
+      <label className="font-medium mt-4 text-white/70">Message</label>
       <textarea
     
-        className="w-full mt-2 p-2 bg-transparent text-black border border-slate-300 rounded-lg resize-none outline-none "
+        className="w-full mt-2 p-2 bg-transparent text-white/70 border border-slate-700 rounded-lg resize-none outline-none "
         placeholder="Enter your message"
         required
       ></textarea>

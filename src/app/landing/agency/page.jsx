@@ -21,14 +21,14 @@ const Agency = () => {
      <div className="bg-black  bg-[radial-gradient(ellipse_at_left_top,_#0f2f1d_30%,_#000000_70%)]">
     <>
    
-      <TopNavBar  
+      <TopNavBar  className="bg-black/30" 
         menuItems={[
           "home",
           "about",
           "services",
           "industries",
           "products",
-          "blog",
+        
           "contact",
         ]}
         position="sticky"

@@ -1,6 +1,8 @@
 import { LuMoveRight } from "react-icons/lu";
 import Image from "next/image";
 import { services } from "../data";
+import { ShieldUser } from 'lucide-react'
+import { Landmark } from "lucide-react";
 import Link from "next/link";
 import img1 from "@/assets/images/landing/agency/culture.png"
 import img2 from "@/assets/images/landing/agency/education2.png"
@@ -25,56 +27,64 @@ const Services = () => {
            
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 justify-items-center mx-auto">
-         <div className="group flex flex-col items-center py-4 text-sm bg-white w-64 rounded-md cursor-pointer hover:bg-[#28A76D]   transition">
-    <Image className="w-36  rounded-full" src={img4} alt="userImage2" />
-    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Defense</h2>
-</div>
+<div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 justify-items-center mx-auto">
+  <div className="group flex flex-col items-center py-20 text-sm bg-black/30 w-64 h-64 rounded-md cursor-pointer hover:bg-[#28a76e4e] transition">
+    <ShieldUser size={78} color="#FFFFFF" />
+    <h2 className="text-white group-hover:text-white text-2xl font-medium mt-4">
+      Defense
+    </h2>
+  </div>
 
 
 
 
 
 
-                 <div className="group flex flex-col items-center py-4 text-sm bg-white w-64 rounded-md cursor-pointer hover:bg-[#28A76D]  transition">
-    <Image className="w-36  rounded-full" src={img3} alt="userImage2" />
-    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Government</h2>
-</div>
+           <div className="group flex flex-col items-center py-20 text-sm bg-black/30 w-64 h-64 rounded-md cursor-pointer hover:bg-[#28a76e4e] transition">
+    <Landmark size={78} color="#FFFFFF" />
+    <h2 className="text-white group-hover:text-white text-2xl font-medium mt-4">
+      Government
+    </h2>
+  </div>
 
 
-
-                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md cursor-pointer hover:bg-[#28A76D]  transition">
-    <Image className="w-36  rounded-full" src={img2} alt="userImage2" />
-    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Education & Research</h2>
-</div>
-
-
-
-
-                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md cursor-pointer hover:bg-[#28A76D]  transition">
-    <Image className="w-36  rounded-full" src={img1} alt="userImage2" />
-    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Agriculture</h2>
-</div>
+<div className="group flex flex-col items-center py-20 text-sm bg-black/30 w-64 h-64 rounded-md cursor-pointer hover:bg-[#28a76e4e] transition">
+    <ShieldUser size={78} color="#FFFFFF" />
+    <h2 className="text-white group-hover:text-white text-2xl font-medium mt-4">
+      Agriculture
+    </h2>
+  </div>
 
 
 
 
-                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md cursor-pointer hover:bg-[#28A76D] transition">
- <Image className="w-36  rounded-full" src={img5} alt="userImage2" />
-    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Climate</h2>
-</div>
+                <div className="group flex flex-col items-center py-20 text-sm bg-black/30 w-64 h-64 rounded-md cursor-pointer hover:bg-[#28a76e4e] transition">
+    <ShieldUser size={78} color="#FFFFFF" />
+    <h2 className="text-white group-hover:text-white text-2xl font-medium mt-4">
+      Climate
+    </h2>
+  </div>
 
 
 
-                 <div className="group flex flex-col items-center py-4 text-sm bg-white  w-64 rounded-md hover:bg-[#28A76D] cursor-pointerhover:bg-[#28A76D]  transition">
-    <Image className="w-36 rounded-full" src={img6} alt="userImage2" />
-    <h2 className="text-gray-700 group-hover:text-white text-lg font-medium mt-2">Banking & Finance</h2>
-</div>
+
+                <div className="group flex flex-col items-center py-20 text-sm bg-black/30 w-64 h-64 rounded-md cursor-pointer hover:bg-[#28a76e4e] transition">
+    <ShieldUser size={78} color="#FFFFFF" />
+    <h2 className="text-white group-hover:text-white text-2xl font-medium mt-4">
+      Banking & Finance
+    </h2>
+  </div>
 
 
+<div className="group flex flex-col items-center py-20 text-sm bg-black/30 w-64 h-64 rounded-md cursor-pointer hover:bg-[#28a76e4e] transition">
+    <ShieldUser size={78} color="#FFFFFF" />
+    <h2 className="text-white group-hover:text-white text-2xl font-medium mt-4">
+      Education & Research
+    </h2>
+  </div>
                  
         </div>
-      </div>
+  </div>
     </section>
 
 

@@ -60,7 +60,7 @@ const TopNavBar = ({ menuItems, position, hasDownloadButton }) => {
         id="navbar"
        className={cn(
   position,
-  "inset-x-0 top-0 z-[60] w-full border-transparent bg-transparent transition-all duration-300 lg:bg-transparent [&.nav-sticky]:bg-transparent [&.nav-sticky]:shadow-none [&.nav-sticky]:backdrop-blur-none dark:[&.nav-sticky]:bg-transparent"
+  "inset-x-0 top-0 z-[60] w-full border-transparent bg-transparent transition-all duration-300 lg:bg-transparent [&.nav-sticky]:bg-black/30 [&.nav-sticky]:shadow-none [&.nav-sticky]:backdrop-blur-none dark:[&.nav-sticky]:bg-transparent"
 )}
 
       >
@@ -90,7 +90,7 @@ const TopNavBar = ({ menuItems, position, hasDownloadButton }) => {
                   {hasDownloadButton && (
                     <div className="inline-flex shrink gap-2 lg:hidden">
                       <Link
-                        href=""
+                        href="contact"
                         className="inline-flex items-center gap-2 rounded-full bg-[#28A76D] px-6 py-1.5 text-base text-white transition-all hover:bg-[#28A76D] "
                       >
                         {/* <LuDownloadCloud className="h-4 w-4 fill-white/40" /> */}

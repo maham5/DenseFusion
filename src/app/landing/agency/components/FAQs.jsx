@@ -2,6 +2,7 @@ import { LuChevronUp } from "react-icons/lu";
 
 import imag1 from "@/assets/images/landing/agency/plantx.png"
 import imag2 from "@/assets/images/landing/agency/serena.png"
+import imag3 from "@/assets/images/landing/agency/carbon.jpeg"
 import { faqContents } from "../data";
 import { cn } from "@/utils";
 import Image from "next/image";
@@ -9,10 +10,10 @@ import Image from "next/image";
 const FAQs = () => {
   return (
 
-   <section id="products" className="py-20">
+   <section id="products" className="py-20 bg-black bg-[radial-gradient(ellipse_at_center,_#0f2f1d_20%,_#000000_70%)]">
       {/* full-bleed wrapper */}
       <div className="w-screen">
-        <div className="bg-black bg-[radial-gradient(ellipse_at_center,_#0f2f1d_20%,_#000000_70%)]">
+        <div className="">
           {/* heading */}
           <div className="mx-auto max-w-2xl text-center px-4 sm:px-6">
             <span className="rounded-md border border-[#28A76D] bg-[#28A76D]/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/60">
@@ -40,11 +41,15 @@ By integrating satellite imagery with robust analytics, they enable long-term mo
                   sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
                   priority
                 />
-                <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-2xl sm:text-3xl">PlantX</h3>
-                  <p className="text-xs sm:text-sm">
-                    Bridging the gap between human intent and machine understanding through expert prompt design.
-                  </p>
+                <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white/70 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <h3 className="text-2xl sm:text-3xl text-white/90">PlantX</h3>
+                  <p className="text-lg sm:text-sm">
+                    PlantX is an advanced geospatial platform that analyzes high-resolution satellite imagery to 
+                    track and visualize urban land cover changes. Using Islamabad as a case study, it uncovers a 20-year 
+                    increase in built-up areas and loss of green spaces, providing critical insights for sustainable urban planning.</p>
+
+
+
                 </div>
               </div>
 
@@ -60,15 +65,15 @@ By integrating satellite imagery with robust analytics, they enable long-term mo
                 <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <h3 className="text-2xl sm:text-3xl">Serena Greens</h3>
                   <p className="text-xs sm:text-sm">
-                    Bridging the gap between human intent and machine understanding through expert prompt design.
-                  </p>
+                   Serena Green is a digital platform developed by Serena Hotels in partnership with WWF and AKRSP to monitor, visualize, and verify large-scale afforestation for carbon offsetting and environmental restoration. Its pilot initiative plants over 600,000 trees across Gilgit-Baltistan, Balochistan, Chitral, Punjab, and Khyber Pakhtunkhwa, advancing the hospitality industry toward net-zero emissions.</p>
+                  
                 </div>
               </div>
 
               {/* card 3 */}
               <div className="relative group flex-1 min-w-[260px] sm:min-w-[300px] md:w-56 h-[320px] sm:h-[360px] md:h-[400px] transition-all duration-500 hover:flex-[2] shadow-[0_8px_20px_rgba(40,167,109,0.5)] overflow-hidden rounded-2xl">
                 <Image
-                  src={imag1}
+                  src={imag3}
                   alt="Carbon Eye"
                   fill
                   className="object-cover object-center"

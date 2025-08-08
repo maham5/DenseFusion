@@ -3,27 +3,70 @@ import { LuLineChart, LuMail, LuPhone, LuSave } from "react-icons/lu";
 const Contact = () => {
   return (
 
-      <section id="contact" className="py-10 lg:py-20 bg-black">
-  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
-      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-      <form action="#" class="space-y-8">
-          <div>
-              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required/>
-          </div>
-          <div>
-              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required/>
-          </div>
-          <div class="sm:col-span-2">
-              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-          </div>
-          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
-      </form>
+<section id="contact" className="py-10 lg:py-20 bg-black bg-[radial-gradient(ellipse_at_center,_#0f2f1d_20%,_#000000_70%)]">
+  <div className="max-w-6xl mx-auto px-4 flex flex-col lg:flex-row items-center lg:items-start gap-10 mt-20">
+    
+    {/* Left side - Heading & paragraph */}
+    <div className="lg:w-1/2 text-center lg:text-left mt-20">
+     <span className="rounded-md border border-[#28A76D] bg-[#28A76D]/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/60">
+              Contact US
+            </span>
+      <h1 className="text-4xl font-bold py-4 text-white/80 my-2">
+         Get In Touch.
+      </h1>
+      <p className="max-md:text-sm text-gray-400">
+       We’re here to assist you with all your AI and HPC needs. From answering questions to building custom solutions or exploring partnerships, our experts are ready to help you take the next step.
+      </p>
+    </div>
+
+    {/* Right side - Form */}
+    <form className="lg:w-1/2 flex flex-col text-sm text-white  p-6 rounded-lg bg-white">
+    <h1 className="text-xl font-bold text-black ">
+       Feel Free to get In touch with us
+      </h1>
+      <p className="max-md:text-xl text-gray-600 my-3">
+       Got a question or a project idea? Let’s talk! Whether it’s AI, HPC, or a unique solution you have in mind, our team is ready to collaborate and help you succeed</p>
+      <label className="font-medium text-black">Full Name</label>
+      <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300   rounded-full overflow-hidden">
+        <input
+          type="text"
+          className="h-full px-2 w-full outline-none border-none bg-transparent text-black"
+          placeholder="Enter your full name"
+          required
+        />
+      </div>
+
+      <label className="font-medium mt-4 text-black">Email Address</label>
+      <div className="flex items-center mt-2 mb-4 h-10 pl-5 border border-slate-300  rounded-full overflow-hidden">
+        <input
+          type="email"
+          className="h-full px-2 w-full outline-none border-none bg-transparent border border-slate-800 text-black"
+          placeholder="Enter your email address"
+          required
+        />
+      </div>
+
+      <label className="font-medium mt-4 text-black">Message</label>
+      <textarea
+    
+        className="w-full mt-2 p-2 bg-transparent text-black border border-slate-300 rounded-lg resize-none outline-none "
+        placeholder="Enter your message"
+        required
+      ></textarea>
+
+      <button
+        type="submit"
+        className="flex items-center justify-center gap-1 mt-5 bg-[#28A76D] hover:bg-[#1fbb49fc] text-white  py-2.5 w-full rounded-full transition"
+      >
+        Contact Us
+        
+     
+      </button>
+    </form>
+    
   </div>
 </section>
+
    
   );
 };

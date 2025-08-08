@@ -62,8 +62,8 @@ By integrating satellite imagery with robust analytics, they enable long-term mo
                   className="object-cover object-center"
                   sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-2xl sm:text-3xl">Serena Green</h3>
+                <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white/70 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <h3 className="text-2xl sm:text-3xl text-white/90">Serena Green</h3>
                   <p className="text-xs sm:text-sm">
                    Serena Green is a digital platform developed by Serena Hotels in partnership with WWF and AKRSP to monitor, visualize, and verify large-scale afforestation for carbon offsetting and environmental restoration. Its pilot initiative plants over 600,000 trees across Gilgit-Baltistan, Balochistan, Chitral, Punjab, and Khyber Pakhtunkhwa, advancing the hospitality industry toward net-zero emissions.</p>
                   
@@ -76,12 +76,12 @@ By integrating satellite imagery with robust analytics, they enable long-term mo
                   src={imag3}
                   alt="Carbon Eye"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-left"
                   sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-2xl sm:text-3xl">Carbon Eye</h3>
-                  <p className="text-xs sm:text-sm">
+                <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white/70 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <h3 className="text-2xl sm:text-3xl text-white/90 ">Carbon Eye</h3>
+                  <p className="text-xs sm:text-sm text-white/70">
                Carbon Eye is a web-based platform that leverages remote sensing, GIS, GeoServer, and advanced deep learning to analyze a decade of NDVI and carbon emission trends in six of the world’s most climate-vulnerable cities, delivering critical insights for 
                sustainable urban planning and environmental management.
                   </p>

@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Services = () => {
   return (
-    <section id="industries" className="py-10 lg:py-20">
-      <div className="container">
+    <section id="industries" className="py-10 lg:py-20 bg-[radial-gradient(ellipse_at_top_left,_#0f2f1d_30%,_#000000_70%)]">
+      <div className="container  bg-transparent ">
         <div className="mb-10 flex items-end justify-between">
           <div className="mx-auto max-w-2xl text-center">
             <span className="rounded-md border border-primary bg-primary/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-primary">
